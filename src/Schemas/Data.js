@@ -64,7 +64,16 @@ export const Data = {
     works: [
       {
         title: "FULL-STACK DEVELOPER",
-        period: "MARZO. 2021 - Actualidad",
+        period: "JULIO. 2024 - Actualidad",
+        company: "EXPERTGROUP",
+        description: [
+          "Desarrollo y mejora continua en las tecnologías Node.js(JS/TS).",
+          "Desarrollo y mejora continua de PWA en las tecnologías Angular"
+        ],
+      },
+      {
+        title: "FULL-STACK DEVELOPER",
+        period: "MARZO. 2021 - JUNIO 2024",
         company: "GLUKY GROUP",
         description: [
           "Desarrollo y mejora continua en las tecnologías Node.js(JS/TS).",
