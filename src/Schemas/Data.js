@@ -68,7 +68,7 @@ export const Data = {
         company: "EXPERTGROUP",
         description: [
           "Desarrollo y mejora continua en las tecnologías Node.js(JS/TS).",
-          "Desarrollo y mejora continua de PWA en las tecnologías Angular"
+          "Desarrollo y mejora continua en las tecnología Angular"
         ],
       },
       {
