@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import Particles from "react-particles-js";
-import { ParticlesParams } from "../Schemas/Particles";
+//import Particles from "react-particles-js";
+//import { ParticlesParams } from "../Schemas/Particles";
 
 export const Options = () => {
   var { lsTheme, lsIcon, lsSnow } = "";
@@ -23,8 +23,8 @@ export const Options = () => {
     document.body.classList[theme === "dark" ? "add" : "remove"]("dark-theme");
   }, [theme, snow, icon]);
 
-  const SnowEffect = () =>
-    snow && theme === "dark" && <Particles params={ParticlesParams} />;
+  const SnowEffect = () => ''
+   // snow && theme === "dark" && <Particles params={ParticlesParams} />;
 
   const _enableSnow = () => setSnow(!snow);
   const _toggleTheme = () => {
