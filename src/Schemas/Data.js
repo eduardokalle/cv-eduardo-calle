@@ -64,7 +64,18 @@ export const Data = {
     works: [
       {
         title: "FULL-STACK DEVELOPER",
-        period: "JULIO. 2024 - Actualidad",
+        period: "DICIEMBRE. 2024 - Actualidad",
+        company: "GLUKY GROUP",
+        description: [
+          "Desarrollo y mejora continua en las tecnologías Node.js(JS/TS).",
+          "Desarrollo y mejora continua de PWA en las tecnologías Angular, React, Ionic y Cordova.",
+          "Manejo de versiones en Bitbucket, y GCP como infraestructura.",
+          "Firebase como tecnologia de hosting, despliegues"
+        ],
+      },
+      {
+        title: "FULL-STACK DEVELOPER",
+        period: "JULIO. 2024 - NOVIEMBRE 2024",
         company: "EXPERTGROUP",
         description: [
           "Desarrollo y mejora continua en las tecnologías Node.js(JS/TS).",
