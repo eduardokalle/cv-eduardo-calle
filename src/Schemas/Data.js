@@ -68,9 +68,10 @@ export const Data = {
         company: "GLUKY GROUP",
         description: [
           "Desarrollo y mejora continua en las tecnologías Node.js(JS/TS).",
-          "Desarrollo y mejora continua de PWA en las tecnologías Angular, React, Ionic y Cordova.",
+          "Desarrollo y mejora continua de WEB Y PWA en las tecnologías Angular V17, React, Ionic y Cordova.",
+          "Microfrontends y Web components",
           "Manejo de versiones en Bitbucket, y GCP como infraestructura.",
-          "Firebase como tecnologia de hosting, despliegues"
+          "Firebase"
         ],
       },
       {
@@ -122,10 +123,18 @@ export const Data = {
       },
     ],
     proyects: [
+       {
+        name: "Puntos Colombia",
+        company: "EXPERTGROUP",
+        period: "JULIO. 2024",
+        description: [
+          "Mejoras en la aplicacion web  Angular Y backend en NodeJS, para  clientes y empresas afiliadas.",
+        ],
+      },
       {
-        name: "MVP",
+        name: "Gluky App",
         company: "GLUKY GROUP",
-        period: "MARZO. 2021 - Actualidad",
+        period: "MARZO. 2024 - Actualidad",
         description: [
           "Mejoras en la aplicacion mobil y web  Angular e Ionic, para la fidelizacion de clientes y desarrollo de nuevos componentes.",
         ],
