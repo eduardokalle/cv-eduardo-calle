@@ -156,15 +156,15 @@ export const Data = {
           "Desarrollo NODE.JS, graphql , API REST para consulta y descarga datos.",
         ],
       },
-      {
-        name: "Puntos ya",
-        company: "Freelance",
-        period: "Oct. 2019 - - Actualidad",
-        description: [
-          "Desarrollo frontend y mobile con las tecnologias de Angular e Ionic Y React para el manejo de productos post y comandas.",
-          "Desarrollo NODE.JS, API REST para consulta y descarga datos.",
-        ],
-      },
+      // {
+      //   name: "Puntos ya",
+      //   company: "Freelance",
+      //   period: "Oct. 2019 - - Actualidad",
+      //   description: [
+      //     "Desarrollo frontend y mobile con las tecnologias de Angular e Ionic Y React para el manejo de productos post y comandas.",
+      //     "Desarrollo NODE.JS, API REST para consulta y descarga datos.",
+      //   ],
+      // },
     ],
   },
 };
