@@ -1,10 +1,13 @@
+import { useTranslation } from "../i18n";
+
 export const Academic = ({ academic }) => {
+  const { t } = useTranslation();
   return (
     <section className="academic-experience section" id="education">
-      <h2 className="section-title">Educación</h2>
+      <h2 className="section-title">{t("academic.title")}</h2>
       <div className="education__container bd-grid">
-        {academic.map((academy) => (
-          <Academy key={academy.institution} {...academy} />
+        {academic.map((academy, i) => (
+          <Academy key={`${academy.institution}-${i}`} {...academy} />
         ))}
       </div>
     </section>

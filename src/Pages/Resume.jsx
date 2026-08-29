@@ -8,13 +8,15 @@ import { Works } from "../Components/Works";
 import { AboutMe } from "../Components/AboutMe";
 import { Menu } from "../Components/Menu";
 import { SEO } from "../Components/SEO";
+import { LanguageProvider, useTranslation } from "../i18n";
 
 import { Data as dataSchema } from '../Schemas/Data';
 import { Menu as menuSchema } from '../Schemas/Menu';
 
-export const Resume = () => {
+const ResumeShell = () => {
   const query = '(min-width: 968px)';
   const [matches, setMatches] = useState(window.matchMedia(query).matches);
+  const { translations } = useTranslation();
 
   useEffect(() => {
     const media = window.matchMedia(query);
@@ -23,25 +25,32 @@ export const Resume = () => {
     return () => media.removeEventListener('change', listener);
   }, [matches]);
 
-  const { profile, aboutMe, skills, socialMedia, experience } = dataSchema;
+  const { profile, socialMedia } = dataSchema;
+  const { skills, experience } = translations;
   return (
     <>
-      <SEO  {...profile} {...aboutMe} />
+      <SEO  {...profile} description={translations.aboutMe.description} />
       {!matches && <Menu {...menuSchema} />}
       <main className='l-main bd-container' id='bd-container'>
         <div className='resume' id='area-cv'>
           <div className='resume__left'>
             <Profile {...profile} {...socialMedia} isMobileView={!matches} />
-            <AboutMe {...aboutMe} />
-            <Skills {...skills} />
+            <AboutMe />
+            <Skills technicalSkills={skills.technicalSkills} softSkills={skills.softSkills} />
           </div>
           <div className='resume__right'>
-            <Works {...experience} />
-            <Academic {...experience} />
-            <Proyects {...experience} />
+            <Works works={experience.works} />
+            <Academic academic={experience.academic} />
+            <Proyects proyects={experience.proyects} />
           </div>
         </div>
       </main>
     </>
   );
 };
+
+export const Resume = () => (
+  <LanguageProvider>
+    <ResumeShell />
+  </LanguageProvider>
+);

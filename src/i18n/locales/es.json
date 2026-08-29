@@ -1,0 +1,188 @@
+{
+  "language": {
+    "code": "es",
+    "label": "ES",
+    "name": "Español",
+    "flag": "ES",
+    "toggleAriaLabel": "Cambiar idioma a cambiar al idioma inglés",
+    "currentLanguageAriaLabel": "Idioma actual: Español"
+  },
+  "menu": {
+    "logo": "Menú",
+    "items": {
+      "home": "Inicio",
+      "profile": "Perfil",
+      "skills": "Habilidades",
+      "experience": "Experiencia",
+      "education": "Educación",
+      "proyects": "Proyectos"
+    }
+  },
+  "options": {
+    "activateSnow": "Activar Nieve",
+    "deactivateSnow": "Desactivar Nieve",
+    "toggleTheme": "Cambiar Tema"
+  },
+  "profile": {
+    "profileImageAlt": "imagen de perfil",
+    "sendEmail": "Enviar un correo electrónico a {name}",
+    "callPhone": "Llamar por teléfono a {name}",
+    "whatsapp": "Enviar un mensaje de WhatsApp a {name}"
+  },
+  "aboutMe": {
+    "label": "Perfil",
+    "description": "Programador de Software, Ingeniero de Sistemas, capacitado para desarrollar aplicaciones informáticas en diversas tecnologías y múltiples lenguajes de programación, aplicando metodologías ágiles de desarrollo, incluyendo identificación de necesidades y diseños de sistemas basados en modelos de desarrollo."
+  },
+  "skills": {
+    "technicalLabel": "Tecnologías",
+    "softLabel": "Habilidades Blandas",
+    "technicalSkills": [
+      "Angular",
+      "React",
+      "JavaScript",
+      "TypeScript",
+      "Node.js",
+      "React Native",
+      "Express",
+      "Ionic",
+      "NPM",
+      "MongoDB",
+      "GraphQL",
+      "REST API",
+      "SQL",
+      "Git",
+      "Inteligencia Artificial (AI)",
+      "OpenCode",
+      "Claude / LLMs",
+      "SKILL.md / AGENTS.md",
+      "Cursor / IDEs con AI",
+      "Prompt Engineering",
+      "Pair Programming con AI"
+    ],
+    "softSkills": [
+      "Capacidad de análisis",
+      "Resolución de Problemas",
+      "Pensamiento Crítico",
+      "Trabajo en equipo",
+      "Comunicación",
+      "Proactividad",
+      "Creatividad",
+      "Autodidacta",
+      "Desarrollo asistido por IA"
+    ]
+  },
+  "works": {
+    "title": "Experiencia"
+  },
+  "academic": {
+    "title": "Educación"
+  },
+  "proyects": {
+    "title": "Proyectos"
+  },
+  "social": {
+    "linkedin": "Visitar el perfil de {name} en LinkedIn",
+    "github": "Visitar el perfil de {name} en GitHub"
+  },
+  "experience": {
+    "current": "Actualidad",
+    "works": [
+      {
+        "title": "FULL-STACK DEVELOPER",
+        "period": "DICIEMBRE 2024 - Actualidad",
+        "company": "GLUKY GROUP",
+        "description": [
+          "Desarrollo y mejora continua en las tecnologías Node.js (JS/TS).",
+          "Desarrollo y mejora continua de WEB y PWA en las tecnologías Angular v17, React, Ionic y Cordova.",
+          "Microfrontends y Web Components.",
+          "Manejo de versiones en Bitbucket, y GCP como infraestructura.",
+          "Firebase.",
+          "Desarrollo asistido por IA: uso de OpenCode (consola), SKILL.md, AGENTS.md, Cursor y LLMs (Claude) para acelerar el desarrollo, generación de código y pair programming."
+        ]
+      },
+      {
+        "title": "FULL-STACK DEVELOPER",
+        "period": "JULIO 2024 - NOVIEMBRE 2024",
+        "company": "EXPERTGROUP",
+        "description": [
+          "Desarrollo y mejora continua en las tecnologías Node.js (JS/TS).",
+          "Desarrollo y mejora continua en la tecnología Angular."
+        ]
+      },
+      {
+        "title": "FULL-STACK DEVELOPER",
+        "period": "MARZO 2021 - JUNIO 2024",
+        "company": "GLUKY GROUP",
+        "description": [
+          "Desarrollo y mejora continua en las tecnologías Node.js (JS/TS).",
+          "Desarrollo y mejora continua de PWA en las tecnologías Angular, React, Ionic y Cordova.",
+          "Manejo de versiones en Bitbucket, y GCP como infraestructura.",
+          "Firebase como tecnología de hosting y despliegues."
+        ]
+      },
+      {
+        "title": "FULL-STACK DEVELOPER",
+        "period": "OCT. 2019 - Actualidad",
+        "company": "Freelance",
+        "description": [
+          "Desarrollo de Web Services REST en Node.js (JS/TS) acompañado de diferentes motores de BD como MySQL, MongoDB, SQL Server.",
+          "Desarrollo de Frontend y Mobile con tecnologías como Angular, React, React Native, Ionic y Cordova.",
+          "Manejo de versiones en GitHub, y Azure como infraestructura.",
+          "Integración de herramientas de IA (OpenCode, Cursor, Claude, SKILL.md/AGENTS.md) en el flujo de trabajo para prototipado rápido, scaffolding de proyectos y refactorización."
+        ]
+      },
+      {
+        "title": "Analista de Aplicaciones",
+        "period": "MAYO 2018 - MARZO 2021",
+        "company": "Cognox",
+        "description": [
+          "Manejo de Base de datos NoSQL.",
+          "Análisis de datos y soporte de aplicaciones.",
+          "Desarrollo de Frontend con tecnologías como React y Vanilla JS (HTML, CSS, JavaScript)."
+        ]
+      }
+    ],
+    "academic": [
+      {
+        "career": "Ingeniería de Sistemas",
+        "date": "2013 - 2018",
+        "institution": "UniRemington"
+      }
+    ],
+    "proyects": [
+      {
+        "name": "Puntos Colombia",
+        "company": "EXPERTGROUP",
+        "period": "JULIO 2024",
+        "description": [
+          "Mejoras en la aplicación web en Angular y backend en Node.js, para clientes y empresas afiliadas."
+        ]
+      },
+      {
+        "name": "Gluky App",
+        "company": "GLUKY GROUP",
+        "period": "MARZO 2024 - Actualidad",
+        "description": [
+          "Mejoras en la aplicación móvil y web en Angular e Ionic, para la fidelización de clientes y desarrollo de nuevos componentes."
+        ]
+      },
+      {
+        "name": "Admin de Clientes",
+        "company": "GLUKY GROUP",
+        "period": "MARZO 2021 - Actualidad",
+        "description": [
+          "Mejoras en la aplicación de administración web de clientes y desarrollo de nuevos componentes."
+        ]
+      },
+      {
+        "name": "Zuppi",
+        "company": "Freelance",
+        "period": "OCT. 2019 - Actualidad",
+        "description": [
+          "Desarrollo frontend y mobile con las tecnologías Angular, Ionic y React para el manejo de productos, post y comandas.",
+          "Desarrollo en Node.js, GraphQL, API REST para consulta y descarga de datos."
+        ]
+      }
+    ]
+  }
+}

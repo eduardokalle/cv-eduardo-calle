@@ -1,0 +1,188 @@
+{
+  "language": {
+    "code": "en",
+    "label": "EN",
+    "name": "English",
+    "flag": "EN",
+    "toggleAriaLabel": "Switch language to Spanish",
+    "currentLanguageAriaLabel": "Current language: English"
+  },
+  "menu": {
+    "logo": "Menu",
+    "items": {
+      "home": "Home",
+      "profile": "Profile",
+      "skills": "Skills",
+      "experience": "Experience",
+      "education": "Education",
+      "proyects": "Projects"
+    }
+  },
+  "options": {
+    "activateSnow": "Activate Snow",
+    "deactivateSnow": "Deactivate Snow",
+    "toggleTheme": "Toggle Theme"
+  },
+  "profile": {
+    "profileImageAlt": "profile picture",
+    "sendEmail": "Send an email to {name}",
+    "callPhone": "Call {name} by phone",
+    "whatsapp": "Send a WhatsApp message to {name}"
+  },
+  "aboutMe": {
+    "label": "Profile",
+    "description": "Software Developer and Systems Engineer, skilled in building software applications across multiple technologies and programming languages. I apply agile development methodologies, including requirements gathering and system design based on proven development models."
+  },
+  "skills": {
+    "technicalLabel": "Technologies",
+    "softLabel": "Soft Skills",
+    "technicalSkills": [
+      "Angular",
+      "React",
+      "JavaScript",
+      "TypeScript",
+      "Node.js",
+      "React Native",
+      "Express",
+      "Ionic",
+      "NPM",
+      "MongoDB",
+      "GraphQL",
+      "REST API",
+      "SQL",
+      "Git",
+      "Artificial Intelligence (AI)",
+      "OpenCode",
+      "Claude / LLMs",
+      "SKILL.md / AGENTS.md",
+      "Cursor / AI-powered IDEs",
+      "Prompt Engineering",
+      "AI Pair Programming"
+    ],
+    "softSkills": [
+      "Analytical Skills",
+      "Problem Solving",
+      "Critical Thinking",
+      "Teamwork",
+      "Communication",
+      "Proactivity",
+      "Creativity",
+      "Self-taught",
+      "AI-Assisted Development"
+    ]
+  },
+  "works": {
+    "title": "Experience"
+  },
+  "academic": {
+    "title": "Education"
+  },
+  "proyects": {
+    "title": "Projects"
+  },
+  "social": {
+    "linkedin": "Visit {name}'s LinkedIn profile",
+    "github": "Visit {name}'s GitHub profile"
+  },
+  "experience": {
+    "current": "Present",
+    "works": [
+      {
+        "title": "FULL-STACK DEVELOPER",
+        "period": "DECEMBER 2024 - Present",
+        "company": "GLUKY GROUP",
+        "description": [
+          "Continuous development and improvement using Node.js (JS/TS) technologies.",
+          "Continuous development and improvement of WEB and PWA using Angular v17, React, Ionic and Cordova.",
+          "Microfrontends and Web Components.",
+          "Version control with Bitbucket, and GCP as cloud infrastructure.",
+          "Firebase.",
+          "AI-assisted development: using OpenCode (console), SKILL.md, AGENTS.md, Cursor and LLMs (Claude) to accelerate development, code generation, and pair programming."
+        ]
+      },
+      {
+        "title": "FULL-STACK DEVELOPER",
+        "period": "JULY 2024 - NOVEMBER 2024",
+        "company": "EXPERTGROUP",
+        "description": [
+          "Continuous development and improvement using Node.js (JS/TS) technologies.",
+          "Continuous development and improvement using Angular technology."
+        ]
+      },
+      {
+        "title": "FULL-STACK DEVELOPER",
+        "period": "MARCH 2021 - JUNE 2024",
+        "company": "GLUKY GROUP",
+        "description": [
+          "Continuous development and improvement using Node.js (JS/TS) technologies.",
+          "Continuous development and improvement of PWA using Angular, React, Ionic and Cordova.",
+          "Version control with Bitbucket, and GCP as cloud infrastructure.",
+          "Firebase as hosting and deployment technology."
+        ]
+      },
+      {
+        "title": "FULL-STACK DEVELOPER",
+        "period": "OCT. 2019 - Present",
+        "company": "Freelance",
+        "description": [
+          "Development of REST Web Services in Node.js (JS/TS) with multiple database engines such as MySQL, MongoDB, SQL Server.",
+          "Frontend and Mobile development using Angular, React, React Native, Ionic and Cordova.",
+          "Version control with GitHub, and Azure as cloud infrastructure.",
+          "Integration of AI tools (OpenCode, Cursor, Claude, SKILL.md/AGENTS.md) into the workflow for rapid prototyping, project scaffolding and refactoring."
+        ]
+      },
+      {
+        "title": "Application Analyst",
+        "period": "MAY 2018 - MARCH 2021",
+        "company": "Cognox",
+        "description": [
+          "NoSQL database management.",
+          "Data analysis and application support.",
+          "Frontend development using React and Vanilla JS (HTML, CSS, JavaScript)."
+        ]
+      }
+    ],
+    "academic": [
+      {
+        "career": "Systems Engineering",
+        "date": "2013 - 2018",
+        "institution": "UniRemington"
+      }
+    ],
+    "proyects": [
+      {
+        "name": "Puntos Colombia",
+        "company": "EXPERTGROUP",
+        "period": "JULY 2024",
+        "description": [
+          "Improvements to the Angular web application and Node.js backend for affiliated clients and companies."
+        ]
+      },
+      {
+        "name": "Gluky App",
+        "company": "GLUKY GROUP",
+        "period": "MARCH 2024 - Present",
+        "description": [
+          "Improvements to the mobile and web application built with Angular and Ionic, focused on customer loyalty and new component development."
+        ]
+      },
+      {
+        "name": "Client Admin",
+        "company": "GLUKY GROUP",
+        "period": "MARCH 2021 - Present",
+        "description": [
+          "Improvements to the web-based client administration application and new component development."
+        ]
+      },
+      {
+        "name": "Zuppi",
+        "company": "Freelance",
+        "period": "OCT. 2019 - Present",
+        "description": [
+          "Frontend and mobile development using Angular, Ionic and React for product management, posts and orders.",
+          "Node.js, GraphQL, REST API development for querying and downloading data."
+        ]
+      }
+    ]
+  }
+}

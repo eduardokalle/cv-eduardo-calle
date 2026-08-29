@@ -114,17 +114,40 @@ body.dark-theme {
   color: var(--title-color);
 }
 
-.enable-snow {
+/*========== Language toggle ==========*/
+.change-language {
   position: absolute;
   top: 2.2rem;
   left: 0;
-  font-size: var(--h2-font-size);
-  color: var(--text-color);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.15rem;
+  background: var(--body-color);
+  border: 1px solid var(--title-color);
+  border-radius: 3px;
+  padding: 0.1rem 0.3rem;
+  color: var(--title-color);
+  font-size: 0.65rem;
+  font-family: var(--body-font);
+  font-weight: var(--font-semi-bold);
+  line-height: 1;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-.enable-snow:hover {
-  color: var(--title-color);
+.change-language i.bx {
+  font-size: 0.8rem;
+  line-height: 1;
+}
+
+.change-language:hover {
+  background: var(--container-color-alt);
+}
+
+.change-language:focus-visible {
+  outline: 2px solid var(--title-color);
+  outline-offset: 2px;
 }
 
 /*========== CSS CLASS ==========*/
@@ -313,7 +336,19 @@ button.generate__btn {
 }
 
 .home__contact {
-  grid-template-columns: repeat(4, max-content);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.home__contact__row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
   justify-content: center;
 }
 
@@ -476,10 +511,6 @@ button.generate__btn {
     padding: 0 1.5rem;
   }
 
-  .enable-snow {
-    display: inline-block;
-  }
-
   .section-title,
   .profile__description {
     text-align: initial;
@@ -495,8 +526,8 @@ button.generate__btn {
 @media print {
 
   @page {
-    size: auto;
-    margin: 0mm;
+    size: B4;
+    margin: 8mm;
   }
 
   html {
@@ -556,12 +587,25 @@ button.generate__btn {
   }
 
   .home__contact {
-    grid-template-columns: none;
-    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.4rem;
   }
 
   .home__contact.bd-grid {
-    gap: .90rem;
+    gap: 0.4rem;
+  }
+
+  .home__contact__row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.25rem;
   }
 
   .experience__content:nth-child(n+5) {
@@ -569,27 +613,51 @@ button.generate__btn {
   }
 
   .social__link {
-    border: none;
-    margin: 0rem;
-    padding: 0rem;
+    border: 1px solid var(--text-color-light);
+    margin: 0;
+    padding: 3px;
+    width: 26px;
+    height: 26px;
+    justify-content: center;
+    gap: 0;
+    border-radius: 4px;
   }
 
-  .social__link {
+  .social__link.print {
     border: none;
-    width: 100%;
-    padding: 0;
+    width: auto;
     height: auto;
-    justify-content: flex-start;
-    gap: .25rem;
+    padding: 0;
+    justify-content: center;
+    gap: 0.35rem;
+    font-size: 0.75rem;
+    color: var(--text-color);
+    margin-bottom: 0.2rem;
+    text-align: center;
   }
 
   .social__link:hover {
     background-color: transparent;
-    border: none;
+    border: 1px solid var(--text-color-light);
+  }
+
+  .social__icon {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .social__link .home__icon {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .social__link.print .social__icon {
+    font-size: 1rem;
+    color: var(--title-color);
   }
 
   a[href]:after {
-    content: attr(data-print);
+    content: "";
   }
 
 }

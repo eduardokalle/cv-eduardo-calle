@@ -1,12 +1,14 @@
 import { Description } from "./Description";
+import { useTranslation } from "../i18n";
 
 export const Works = ({ works }) => {
+  const { t } = useTranslation();
   return (
     <section className="work-experience section" id="experience">
-      <h2 className="section-title">Experiencia</h2>
+      <h2 className="section-title">{t("works.title")}</h2>
       <div className="experience__container bd-grid">
-        {works.map((work) => (
-          <Work key={work.company} {...work} />
+        {works.map((work, i) => (
+          <Work key={`${work.company}-${i}`} {...work} />
         ))}
       </div>
     </section>
