@@ -31,11 +31,30 @@ export const Profile = ({
           <span className="social__link print">
             <i className="bx bx-map social__icon" /> {location}
           </span>
-          <div className="home__contact__row">
+          <span className="social__link print">
+            <i className="bx bx-envelope social__icon" /> {email}
+          </span>
+          <span className="social__link print">
+            <i className="bx bx-phone social__icon" /> {telephone}
+          </span>
+          <span className="social__link print">
+            <i className="bx bxl-whatsapp social__icon" /> {telephone}
+          </span>
+          {social.map((s) => {
+            const handle = s.url.startsWith('http')
+              ? '@' + s.url.split('/').filter(Boolean).pop()
+              : '';
+            return (
+              <span key={s.name} className="social__link print">
+                <i className={`bx ${s.name === 'linkedin' ? 'bxl-linkedin-square' : s.name === 'github' ? 'bxl-github' : 'bxl-' + s.name} social__icon`} /> {handle}
+              </span>
+            );
+          })}
+          <div className="home__contact__row no-print">
             <BoxIcon className="home__icon bx-envelope" label={t("profile.sendEmail", { name })} url={`mailto:${email}`} />
             <BoxIcon className="home__icon bx-phone" label={t("profile.callPhone", { name })} url={`tel:${telephone}`} />
             <WhatsAppButton name={name} telephone={telephone} />
-            {true && social.map((s) => {
+            {social.map((s) => {
               const key = s.name === "linkedin" ? "social.linkedin" : s.name === "github" ? "social.github" : null;
               return <BoxIcon key={s.name} {...s} label={key ? t(key, { name }) : s.label} />;
             })}
